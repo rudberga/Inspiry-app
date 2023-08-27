@@ -8,23 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		8E3845E22A7FE48400BB9E18 /* InspiryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3845E12A7FE48400BB9E18 /* InspiryApp.swift */; };
-		8E3845E42A7FE48400BB9E18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3845E32A7FE48400BB9E18 /* ContentView.swift */; };
+		8E3845E42A7FE48400BB9E18 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3845E32A7FE48400BB9E18 /* MainView.swift */; };
 		8E3845E62A7FE48600BB9E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3845E52A7FE48600BB9E18 /* Assets.xcassets */; };
 		8E3845EA2A7FE48600BB9E18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3845E92A7FE48600BB9E18 /* Preview Assets.xcassets */; };
-		8E3845F12A7FE55E00BB9E18 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E3845F02A7FE55E00BB9E18 /* GoogleService-Info.plist */; };
 		8E3845F42A7FE58F00BB9E18 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8E3845F32A7FE58F00BB9E18 /* FirebaseAuth */; };
 		8E3845F62A7FE58F00BB9E18 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8E3845F52A7FE58F00BB9E18 /* FirebaseFirestore */; };
 		8E3845F82A7FE58F00BB9E18 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8E3845F72A7FE58F00BB9E18 /* FirebaseFirestoreSwift */; };
+		8E72E29C2A9396DB0072D7C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E72E29B2A9396DB0072D7C9 /* GoogleService-Info.plist */; };
+		8EE8C2B22A98DB7000541853 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8C2B12A98DB7000541853 /* ProfileView.swift */; };
+		8EE8C2B42A98DC0900541853 /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8C2B32A98DC0900541853 /* QuestionsView.swift */; };
+		8EE8C2B62A98DC1C00541853 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8C2B52A98DC1C00541853 /* ResultView.swift */; };
+		8EE8C2B82A98DC2400541853 /* RestaurantDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8C2B72A98DC2400541853 /* RestaurantDetailsView.swift */; };
+		8EE8C2BA2A98DEBE00541853 /* ResultCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8C2B92A98DEBE00541853 /* ResultCardView.swift */; };
+		8EE8C2BC2A98E96500541853 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8C2BB2A98E96500541853 /* Restaurant.swift */; };
+		8EE8C2BE2A98E99900541853 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8C2BD2A98E99900541853 /* Questions.swift */; };
+		8EE8C2C02A98EA4800541853 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8C2BF2A98EA4800541853 /* MainViewViewModel.swift */; };
+		8EE8C2C22A98EA5300541853 /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8C2C12A98EA5300541853 /* ProfileViewViewModel.swift */; };
+		8EE8C2C42A98EA8A00541853 /* QuestionsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8C2C32A98EA8A00541853 /* QuestionsViewViewModel.swift */; };
+		8EE8C2C62A98EA9400541853 /* ResultViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8C2C52A98EA9400541853 /* ResultViewViewModel.swift */; };
+		8EE8C2C82A98EAA200541853 /* RestaurantDetailsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8C2C72A98EAA200541853 /* RestaurantDetailsViewViewModel.swift */; };
+		8EE8C2CA2A98EAAF00541853 /* ResultCardViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8C2C92A98EAAF00541853 /* ResultCardViewViewModel.swift */; };
+		8EE8C2CD2A98F27F00541853 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8C2CC2A98F27F00541853 /* Color+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8E3845DE2A7FE48400BB9E18 /* Inspiry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inspiry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E3845E12A7FE48400BB9E18 /* InspiryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspiryApp.swift; sourceTree = "<group>"; };
-		8E3845E32A7FE48400BB9E18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E3845E32A7FE48400BB9E18 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8E3845E52A7FE48600BB9E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E3845E72A7FE48600BB9E18 /* Inspiry.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inspiry.entitlements; sourceTree = "<group>"; };
 		8E3845E92A7FE48600BB9E18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8E3845F02A7FE55E00BB9E18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E72E29B2A9396DB0072D7C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Inspiry/Other/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8EE8C2B12A98DB7000541853 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8EE8C2B32A98DC0900541853 /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		8EE8C2B52A98DC1C00541853 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		8EE8C2B72A98DC2400541853 /* RestaurantDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsView.swift; sourceTree = "<group>"; };
+		8EE8C2B92A98DEBE00541853 /* ResultCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCardView.swift; sourceTree = "<group>"; };
+		8EE8C2BB2A98E96500541853 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		8EE8C2BD2A98E99900541853 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		8EE8C2BF2A98EA4800541853 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		8EE8C2C12A98EA5300541853 /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
+		8EE8C2C32A98EA8A00541853 /* QuestionsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewViewModel.swift; sourceTree = "<group>"; };
+		8EE8C2C52A98EA9400541853 /* ResultViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewViewModel.swift; sourceTree = "<group>"; };
+		8EE8C2C72A98EAA200541853 /* RestaurantDetailsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsViewViewModel.swift; sourceTree = "<group>"; };
+		8EE8C2C92A98EAAF00541853 /* ResultCardViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCardViewViewModel.swift; sourceTree = "<group>"; };
+		8EE8C2CC2A98F27F00541853 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +88,12 @@
 		8E3845E02A7FE48400BB9E18 /* Inspiry */ = {
 			isa = PBXGroup;
 			children = (
-				8E3845E12A7FE48400BB9E18 /* InspiryApp.swift */,
-				8E3845E32A7FE48400BB9E18 /* ContentView.swift */,
-				8E3845E52A7FE48600BB9E18 /* Assets.xcassets */,
 				8E3845E72A7FE48600BB9E18 /* Inspiry.entitlements */,
-				8E3845F02A7FE55E00BB9E18 /* GoogleService-Info.plist */,
+				8EE8C2CB2A98F23200541853 /* Extensions */,
+				8EE8C2B02A98D76200541853 /* Other */,
+				8EE8C2AF2A98D73D00541853 /* Models */,
+				8EE8C2AE2A98D71A00541853 /* ViewModels */,
+				8EE8C2AD2A98D70B00541853 /* Views */,
 				8E3845E82A7FE48600BB9E18 /* Preview Content */,
 			);
 			path = Inspiry;
@@ -76,6 +105,59 @@
 				8E3845E92A7FE48600BB9E18 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EE8C2AD2A98D70B00541853 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E3845E32A7FE48400BB9E18 /* MainView.swift */,
+				8EE8C2B12A98DB7000541853 /* ProfileView.swift */,
+				8EE8C2B32A98DC0900541853 /* QuestionsView.swift */,
+				8EE8C2B52A98DC1C00541853 /* ResultView.swift */,
+				8EE8C2B72A98DC2400541853 /* RestaurantDetailsView.swift */,
+				8EE8C2B92A98DEBE00541853 /* ResultCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8EE8C2AE2A98D71A00541853 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8EE8C2BF2A98EA4800541853 /* MainViewViewModel.swift */,
+				8EE8C2C12A98EA5300541853 /* ProfileViewViewModel.swift */,
+				8EE8C2C32A98EA8A00541853 /* QuestionsViewViewModel.swift */,
+				8EE8C2C52A98EA9400541853 /* ResultViewViewModel.swift */,
+				8EE8C2C72A98EAA200541853 /* RestaurantDetailsViewViewModel.swift */,
+				8EE8C2C92A98EAAF00541853 /* ResultCardViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8EE8C2AF2A98D73D00541853 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8EE8C2BB2A98E96500541853 /* Restaurant.swift */,
+				8EE8C2BD2A98E99900541853 /* Questions.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8EE8C2B02A98D76200541853 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8E72E29B2A9396DB0072D7C9 /* GoogleService-Info.plist */,
+				8E3845E12A7FE48400BB9E18 /* InspiryApp.swift */,
+				8E3845E52A7FE48600BB9E18 /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8EE8C2CB2A98F23200541853 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8EE8C2CC2A98F27F00541853 /* Color+Hex.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E3845EA2A7FE48600BB9E18 /* Preview Assets.xcassets in Resources */,
+				8E72E29C2A9396DB0072D7C9 /* GoogleService-Info.plist in Resources */,
 				8E3845E62A7FE48600BB9E18 /* Assets.xcassets in Resources */,
-				8E3845F12A7FE55E00BB9E18 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,8 +239,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E3845E42A7FE48400BB9E18 /* ContentView.swift in Sources */,
+				8EE8C2BE2A98E99900541853 /* Questions.swift in Sources */,
+				8EE8C2B42A98DC0900541853 /* QuestionsView.swift in Sources */,
+				8E3845E42A7FE48400BB9E18 /* MainView.swift in Sources */,
+				8EE8C2B62A98DC1C00541853 /* ResultView.swift in Sources */,
+				8EE8C2B22A98DB7000541853 /* ProfileView.swift in Sources */,
+				8EE8C2BC2A98E96500541853 /* Restaurant.swift in Sources */,
+				8EE8C2C62A98EA9400541853 /* ResultViewViewModel.swift in Sources */,
+				8EE8C2CA2A98EAAF00541853 /* ResultCardViewViewModel.swift in Sources */,
+				8EE8C2C82A98EAA200541853 /* RestaurantDetailsViewViewModel.swift in Sources */,
+				8EE8C2CD2A98F27F00541853 /* Color+Hex.swift in Sources */,
+				8EE8C2B82A98DC2400541853 /* RestaurantDetailsView.swift in Sources */,
+				8EE8C2C22A98EA5300541853 /* ProfileViewViewModel.swift in Sources */,
 				8E3845E22A7FE48400BB9E18 /* InspiryApp.swift in Sources */,
+				8EE8C2C42A98EA8A00541853 /* QuestionsViewViewModel.swift in Sources */,
+				8EE8C2C02A98EA4800541853 /* MainViewViewModel.swift in Sources */,
+				8EE8C2BA2A98DEBE00541853 /* ResultCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
